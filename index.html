@@ -1,0 +1,1570 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Clone YT</title>
+        <meta charset="utf-8"/>
+        <link type="text/css" rel="stylesheet" href="../youtube/assets/main.css"/>
+        <script type="text/javascript" src="../youtube/js/main.js"></script>
+    </head>
+    <body class="rolex">
+        <div class="bar-left">
+            <div class="quadro">
+                <ion-icon name="menu"></ion-icon>
+            </div>
+            <div class="quadro">
+                <ion-icon name="home"></ion-icon>
+            </div>
+            <div class="quadro">
+                <ion-icon name="at"></ion-icon>
+            </div>
+            <div class="quadro">
+                <ion-icon name="albums"></ion-icon>
+            </div>
+            <div class="quadro">
+                <ion-icon name="copy"></ion-icon>
+            </div>
+        </div>
+        <div class="bar-top">
+            <div class="yt">
+                <div class="icone">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </div>
+            </div>
+            <div class="group-fetch">
+                <div class="fetch">
+                    <input type="text" placeholder="Pesquisar" maxlength="300"/>
+                </div>
+                <div class="icone-fetch">
+                    <ion-icon name="search"></ion-icon>
+                </div>
+                <div class="voice">
+                    <ion-icon name="mic"></ion-icon>
+                </div>
+            </div>
+            <div class="users">
+                <div class="video">
+                    <ion-icon name="videocam"></ion-icon>
+                </div>
+                <div class="note">
+                    <ion-icon name="notifications"></ion-icon>
+                </div>
+                <div class="user">
+                    <ion-icon name="person"></ion-icon>
+                </div>
+            </div>
+        </div>
+        <div id="genero" class="bar-genero">
+            <div class="rol-left">
+                <a id="rolLeft"><</a>
+            </div>
+            <div id="bar-genero" class="bar-genero-rol">
+                <div class="block-genero">
+                    <nav>Tudo</nav>
+                    <nav>Mixes</nav>
+                    <nav>Música</nav>
+                    <nav>Álbuns</nav>
+                    <nav>Ao vivo</nav>
+                    <nav>Jogos</nav>
+                    <nav>Música Indie</nav>
+                    <nav>Música Lo-fi</nav>
+                    <nav>Programação de computador</nav>
+                    <nav>Banda Sonora</nav>
+                    <nav>Jazz</nav>
+                    <nav>Trailer</nav>
+                    <nav>Música Brasileira</nav>
+                    <nav>Pop Rock</nav>
+                    <nav>Rap</nav>
+                    <nav>Hip-hop</nav>
+                    <nav>Live</nav>
+                    <nav>Sertanejo</nav>
+                    <nav>Documentário</nav>
+                    <nav>Flora</nav>
+                    <nav>Fauna</nav>
+                    <nav>Funk</nav>
+                    <nav>Animação</nav>
+                    <nav>Animes</nav>
+                    <nav>Desenho</nav>
+                </div>
+            </div>
+            <div class="rol-right">
+                <a id="rolRight">></a>
+            </div>
+        </div>
+        <div class="scroll">
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bar-scroll">
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="thumbnail" class="block-video">
+                    <div id="img" class="img">
+                        <ion-icon name="qr-code"></ion-icon>
+                    </div>
+                    <div class="channel">
+                        <div id="radio" class="icon-channel">
+                            <div class="img">
+                                
+                                <ion-icon name="scan"></ion-icon>
+                            </div>
+                        </div>
+                        <div class="text-channel">
+                            <div id="title" class="title">Título</div>
+                            <div id="subscriber" class="subscriber">Testador</div>
+                            <div id="temp" class="temp">2 year ago</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
